@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #0c4692;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #5487c9;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  background: #0c4692;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: white;
+  color: #0c4692;
+}
+
+h2 {
+  color: #0c4692;
+  margin-bottom: 10px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  flex: 70%;
+  padding: 20px;
+  background-color: white;
+}
+
+aside {
+  flex: 30%;
+  background: #e6e6e6;
+  padding: 20px;
+}
+
+.aside-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgb(3, 12, 79,0.3);
+  text-align: center;
+}
+
+.aside-img {
+  width: 150px;
+  margin: 10px auto;
+  display: block;
+}
+
+.recursos-lista, .datos-curiosos {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.aside-card ul li {
+  margin-bottom: 8px;
+}
+
+.aside-card a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.aside-card a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #0c4692;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+section img {
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.formulario-tea {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  border: 2px solid #0c4692;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario-tea label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0c4692;
+}
+
+.formulario-tea input,
+.formulario-tea select,
+.formulario-tea textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #5487c9;
+  transition: 0.3s;
+}
+
+.formulario-tea input:focus,
+.formulario-tea select:focus,
+.formulario-tea textarea:focus {
+  border-color: #0c4692;
+}
+
+.formulario-tea button {
+  padding: 12px;
+  font-size: 18px;
+  background: #5487c9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario-tea button:hover {
+  background: #0c4692;
+}
+
+footer {
+  background-color: #5487c9;
+  color: #0f000b;
+  padding: 20px;
+  text-align: center;
+}
